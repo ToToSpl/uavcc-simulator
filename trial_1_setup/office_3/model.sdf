@@ -8,7 +8,7 @@
         <pose>1.8 1.8 0.2 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.0006844012958 0.0005431646878 0.0013924872736</size>
+            <size>0.06844012958 0.05431646878 0.13924872736</size>
           </box>
         </geometry>
       </collision>
@@ -16,7 +16,7 @@
         <geometry>
 	<mesh>
             <uri>model://law_office/meshes/law_office.dae</uri>
-<scale>0.444012958 0.4440646878 0.3924872736</scale>
+<scale>44.4012958 44.40646878 39.24872736</scale>
           </mesh>
         </geometry>
       </visual>
