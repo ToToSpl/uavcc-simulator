@@ -34,7 +34,7 @@ namespace gazebo
               // name the animation "test",
               // make it last 10 seconds,
               // and set it on a repeat loop
-              new gazebo::common::PoseAnimation("test", 35, true));
+              new gazebo::common::PoseAnimation("test", 71, true));
 
         gazebo::common::PoseKeyFrame *key;
 
@@ -51,6 +51,30 @@ namespace gazebo
         key = anim->CreateKeyFrame(30.0);
         key->Translation(ignition::math::Vector3d(8, 0, 0.05));
         key->Rotation(ignition::math::Quaterniond(0, 0, 0));
+
+        key = anim->CreateKeyFrame(33.0);
+        key->Translation(ignition::math::Vector3d(9, 0.5, 0.05));
+        key->Rotation(ignition::math::Quaterniond(0, 0, 1.57));
+
+        key = anim->CreateKeyFrame(36.0);
+        key->Translation(ignition::math::Vector3d(8, 1, 0.05));
+        key->Rotation(ignition::math::Quaterniond(0, 0, 3.14));
+
+        key = anim->CreateKeyFrame(45.0);
+        key->Translation(ignition::math::Vector3d(0, 1, 0.05));
+        key->Rotation(ignition::math::Quaterniond(0, 0, 3.14));
+
+        key = anim->CreateKeyFrame(65.0);
+        key->Translation(ignition::math::Vector3d(-8, 1, 0.05));
+        key->Rotation(ignition::math::Quaterniond(0, 0, 3.14));
+
+        key = anim->CreateKeyFrame(68.0);
+        key->Translation(ignition::math::Vector3d(-9, 0.5, 0.05));
+        key->Rotation(ignition::math::Quaterniond(0, 0, 4.71));
+
+        key = anim->CreateKeyFrame(71);
+        key->Translation(ignition::math::Vector3d(-8, 0, 0.05));
+        key->Rotation(ignition::math::Quaterniond(0, 0, 6.28));
 
         // set the animation
         _parent->SetAnimation(anim);
