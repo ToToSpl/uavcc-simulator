@@ -15,7 +15,7 @@
       <visual name="visual">
         <geometry>
 	<mesh>
-            <uri>model://law_office/meshes/law_office.dae</uri>
+            <uri>model://office/meshes/law_office.dae</uri>
 <scale>0.1844012958 0.2431646878 0.13924872736</scale>
           </mesh>
         </geometry>
