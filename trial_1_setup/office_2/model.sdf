@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="law_office">
+  <model name="office_2">
 <pose>2.1 1.8 0.2 0 0 0</pose>
     <static>true</static>
     <link name="link">
@@ -16,7 +16,7 @@
         <geometry>
 	<mesh>
             <uri>model://law_office/meshes/law_office.dae</uri>
-<scale>18.44012958 64.31646878 43.924872736</scale>
+<scale>0.1844012958 0.6431646878 0.43924872736</scale>
           </mesh>
         </geometry>
       </visual>

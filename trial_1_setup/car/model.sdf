@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='rover'>
+  <model name='car'>
     <link name='link'>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>

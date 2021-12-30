@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="law_office">
+  <model name="office_3">
 <pose>2.1 1.8 0.2 0 0 0</pose>
     <static>true</static>
     <link name="link">
